@@ -73,7 +73,7 @@
 				                </div>
 
 				                <!-- banner end -->
-				                <p class="text-center"> Copyright &copy; 2018 - Totalgrades(v1.0) -by <a href="https://nahorr.com">nahorr Analytics </a></p>
+				                <p class="text-center"> <small> Copyright &copy; 2018 - Totalgrades(v1.0) -by <a href="https://nahorr.com">nahorr Analytics </small></a></p>
 				                
 				               
 
