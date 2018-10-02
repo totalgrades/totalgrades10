@@ -32,7 +32,7 @@ class SetUpController extends Controller
 
         $schools = School::get();
 
-        return view('/admin.superadmin.schoolsetup.schools.showschools', compact('today', 'schoolyear', 'schools'));
+        return view('admin.superadmin.schoolsetup.schools.showschools', compact('today', 'schoolyear', 'schools'));
     }
 
     public function addSchool()
@@ -46,7 +46,7 @@ class SetUpController extends Controller
         $schools = School::get();
 
 
-         return view('/admin.superadmin.schoolsetup.schools.addschool', compact('today', 'schoolyear', 'schools'));
+         return view('admin.superadmin.schoolsetup.schools.addschool', compact('today', 'schoolyear', 'schools'));
     }
 
     public function postSchool(Request $r) 
@@ -100,7 +100,7 @@ class SetUpController extends Controller
 
 
 
-         return view('/admin.superadmin.schoolsetup.schools.editschool', compact('today', 'schoolyear', 'school'));
+         return view('admin.superadmin.schoolsetup.schools.editschool', compact('today', 'schoolyear', 'school'));
     }
 
     public function postSchoolUpdate(Request $r, $school_id)

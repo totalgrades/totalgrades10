@@ -16,7 +16,7 @@
                             <div class="col-sm-6">
                                 <div class="widget-box">
                                     <div class="widget-header">
-                                        <h4 class="widget-title">Adding  School to {{ $schoolyear->school_year}} School year</h4>
+                                        <h4 class="widget-title">Adding  School to {{ $current_school_year->school_year }} School year</h4>
                                         
                                     </div>
 

@@ -53,6 +53,9 @@
             'admin.superadmin.schoolsetup.gradebookActivities.activities',
             'admin.superadmin.schoolsetup.gradebookActivities.addActivity',
             'admin.superadmin.schoolsetup.gradebookActivities.editActivity',
+            'admin.superadmin.schoolsetup.schools.showschools',
+            'admin.superadmin.schoolsetup.schools.addschool',
+            'admin.superadmin.schoolsetup.schools.editschool',
 
             ], 
             
