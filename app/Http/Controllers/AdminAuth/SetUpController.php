@@ -49,14 +49,14 @@ class SetUpController extends Controller
 
             // Delete current image before uploading new image
             if ($school->logo !== 'default_logo.jpg') {
-                 $file = public_path('/assets/img/logo/' . $school->logo);
+                 $file = public_path('assets/img/logo/' . $school->logo);
 
                 if (File::exists($file)) {
                     unlink($file);
                 }
             }
 
-            Image::make($logo)->resize(300, 300)->save( public_path('/assets/img/logo/' . $filename ) );
+            Image::make($logo)->resize(300, 300)->save( public_path('assets/img/logo/' . $filename ) );
            
             $school->logo = $filename;
             $school->save();
